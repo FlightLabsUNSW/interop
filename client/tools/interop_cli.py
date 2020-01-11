@@ -8,7 +8,8 @@ import getpass
 import logging
 import sys
 import time
-sys.path.append('/interop/client')
+
+sys.path.append('FLU-AUVSI-Interop-System/Interop-Linux/interop')
 
 from auvsi_suas.client.client import AsyncClient
 from auvsi_suas.proto.interop_api_pb2 import Telemetry

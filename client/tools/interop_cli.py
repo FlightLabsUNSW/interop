@@ -11,7 +11,7 @@ import time
 
 # sys.path.append('FLU-AUVSI-Interop-System/Interop-Linux/interop')
 
-# from auvsi_suas.client.client import AsyncClient
+from auvsi_suas.client.client import AsyncClient
 from auvsi_suas.proto.interop_api_pb2 import Telemetry
 from google.protobuf import json_format
 from mavlink_proxy import MavlinkProxy

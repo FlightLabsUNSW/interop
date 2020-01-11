@@ -8,6 +8,7 @@ import getpass
 import logging
 import sys
 import time
+sys.path.append('/interop/client')
 
 from auvsi_suas.client.client import AsyncClient
 from auvsi_suas.proto.interop_api_pb2 import Telemetry
